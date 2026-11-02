@@ -1,0 +1,16 @@
+menu "ESP32-S3 USB Ethernet"
+    depends on IDF_TARGET_ESP32S3
+
+    config ESP_WIFI_SSID
+        string "Wi-Fi SSID"
+        default "ssid"
+        help
+            Name of the 2.4 GHz access point used by the USB NCM bridge.
+
+    config ESP_WIFI_PASSWORD
+        string "Wi-Fi password"
+        default "password"
+        help
+            Password for the access point used by the USB NCM bridge.
+
+endmenu

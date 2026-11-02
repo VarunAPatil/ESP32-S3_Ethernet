@@ -1,0 +1,20 @@
+# ESP-IDF generated files and local Wi-Fi credentials
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local benchmark measurements and report artifacts
+benchmarks/*.json
+benchmarks/*.pdf
+benchmarks/make_report.py
+
+# Other generated firmware artifacts
+*.bin
+*.elf
+*.map

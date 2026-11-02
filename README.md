@@ -1,5 +1,7 @@
 # ESP32-S3 USB Ethernet over Wi-Fi
 
+![ESP32-S3 with USB cable plugged in, followed by a laptop speed test](assets/usb-ncm-demo-preview.gif)
+
 Turn an **ESP32-S3** into a USB Network Control Model (NCM) adapter. The board joins a 2.4 GHz Wi-Fi access point as a station and forwards Ethernet frames between that network and a computer connected to its **native USB OTG** port. The computer should then obtain its address from the Wi-Fi network's DHCP server.
 
 This project is based on Espressif's [`tusb_ncm` example](https://github.com/espressif/esp-idf/tree/release/v5.5/examples/peripherals/usb/device/tusb_ncm) and builds with ESP-IDF 5.5. The code is deliberately restricted to ESP32-S3.
@@ -8,12 +10,6 @@ This project is based on Espressif's [`tusb_ncm` example](https://github.com/esp
 Computer (USB NCM) <-- USB OTG --> ESP32-S3 <-- 2.4 GHz Wi-Fi --> AP/router
        DHCP client                                             DHCP server
 ```
-
-## Demonstration
-
-[![Animated preview of the ESP32-S3 USB connection and laptop speed test; click to play the MP4](assets/usb-ncm-demo-preview.gif)](assets/usb-ncm-speed-test.mp4)
-
-[Play the full MP4](assets/usb-ncm-speed-test.mp4). The clip opens and closes with the USB cable plugged into the board, with a laptop speed test between those views. The repeatable throughput measurements are described below.
 
 ## Before you start
 

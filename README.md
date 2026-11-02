@@ -9,7 +9,11 @@ Computer (USB NCM) <-- USB OTG --> ESP32-S3 <-- 2.4 GHz Wi-Fi --> AP/router
        DHCP client                                             DHCP server
 ```
 
-[Watch the ESP32-S3 USB Ethernet demonstration](assets/usb-ncm-speed-test.mp4). The clip opens and closes with the USB cable plugged into the board, with a laptop speed test between those views. The repeatable throughput measurements are described below.
+## Demonstration
+
+[![Animated preview of the ESP32-S3 USB connection and laptop speed test; click to play the MP4](assets/usb-ncm-demo-preview.gif)](assets/usb-ncm-speed-test.mp4)
+
+[Play the full MP4](assets/usb-ncm-speed-test.mp4). The clip opens and closes with the USB cable plugged into the board, with a laptop speed test between those views. The repeatable throughput measurements are described below.
 
 ## Before you start
 
